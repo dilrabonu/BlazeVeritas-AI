@@ -8,6 +8,16 @@ It integrates computer vision, geospatial analytics, and conversational intellig
 ![alt text]({30AED459-CAB8-4535-87E0-60A4F2D06AD2}.png)
 
 ## 🌍 Overview
+ Name Meaning — BlazeVeritas AI
+
+The name “BlazeVeritas” comes from two powerful roots:
+
+Blaze — symbolizing wildfire, energy, and the unpredictable forces of nature.
+
+Veritas — Latin for truth or clarity.
+
+Together, BlazeVeritas AI means “Truth within the Blaze.”
+It reflects the project’s mission: to bring clarity, transparency, and explainable intelligence into wildfire detection and response — turning chaos into actionable insight through the power of responsible AI.
 
 Wildfires pose catastrophic threats to ecosystems, infrastructure, and human lives.
 BlazeVeritas AI bridges science and technology to deliver:
