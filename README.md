@@ -11,6 +11,8 @@ It integrates computer vision, geospatial analytics, and conversational intellig
 
 Wildfires pose catastrophic threats to ecosystems, infrastructure, and human lives.
 BlazeVeritas AI bridges science and technology to deliver:
+## Used dataset: 
+https://data.mendeley.com/datasets/fgvscdjsmt/4 
 
 🧠 Deep Learning–based Fire Detection from aerial or satellite imagery
 
@@ -115,13 +117,13 @@ Public communication guidelines
 
 Source citations
 
-Calibration & Reliability
+**Calibration & Reliability**
 
 Implements Temperature Scaling and Expected Calibration Error (ECE)
 to ensure probabilistic outputs reflect true model confidence — critical for
 real-world emergency decision-making.
 
-Geospatial Visualization
+**Geospatial Visualization**
 
 Integrates coordinates from predictions (lat, lon)
 
@@ -130,13 +132,20 @@ Future support for NASA FIRMS, Sentinel-2, and Earth Engine data streams
 Enables mapping of fire hotspots and uncertainty regions
 
 
-Tech Stack
+## Tech Stack
+
 Layer	Technology
+
 Frontend	Streamlit 1.36 (UI + Interactivity)
+
 Backend API	FastAPI + Uvicorn
+
 AI Models	PyTorch, TorchVision
+
 Explainability	Grad-CAM, Matplotlib
+
 RAG / LLM	LangChain, OpenAI API, Chroma VectorDB
+
 Utilities	NumPy, Pandas, Requests, dotenv
 
 
@@ -163,30 +172,13 @@ uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
 # 6️⃣ Run the Streamlit dashboard
 streamlit run app.py
 
-📁 Folder Structure
-blazeveritas/
-├── api/                     # FastAPI backend (inference + RAG)
-
-├── app/                     # Streamlit dashboard
-
-├── models/                  # Trained model weights
-
-├── reports/                 # Grad-CAM & metric outputs
-
-├── scripts/                 # Utilities for ingestion & ONNX export
-
-├── data/                    # Input / sample data
-
-├── .env                     # API keys & configs
-
-└── app.py                   # Dashboard entry point
 
 
 **Results Snapshot**
 
 ![alt text]({26492240-AC77-4EE5-8D96-0F2FA7F9A7F0}.png)
 
-Example Use Case
+## Example Use Case
 
 Upload a wildfire image → model classifies “FIRE / NO FIRE”
 
@@ -200,7 +192,7 @@ Displays plan and heatmaps on the dashboard
 
 ![alt text]({FCC48DE9-10CB-4F02-A2EA-D0B3D095B4B1}.png)
 
-Deployment Plan
+## Deployment Plan
 
 ✅ Local FastAPI + Streamlit prototype
 
@@ -210,16 +202,16 @@ Deployment Plan
 
 🔗 RAG expansion to climate and emergency datasets
 
-Author
+## Author
 
-Dilrabo Khidirova
+**Dilrabo Khidirova** 
 AI Engineer | MSc in Machine Learning & Data Science
 
-Anna Surkova
+**Anna Surkova**
 PM | Data Engineering & AI
 
 
-Acknowledgments
+## Acknowledgments
 
 EPAM Systems Mentorship (2025) — Internship project under Taras Ustyianovych & Yulyana Huliayeva
 
