@@ -27,22 +27,32 @@ BlazeVeritas AI bridges science and technology to deliver:
 Streamlit UI (app.py)
 │
 ├── Detect tab → CNN/ResNet/DenseNet models for fire classification
+
 ├── Calibration tab → Reliability plots & temperature scaling
+
 ├── Copilot tab → RAG assistant with OpenAI + LangChain
+
 └── Map tab → Geo-aware visualization
 
 Backend (FastAPI / LangChain)
 
 api/
 ├── inference.py     → Model loading & prediction
+
 ├── explain.py       → Grad-CAM generation
+
 ├── rag/
+
 │   ├── index.py     → Vector-DB building (Chroma)
+
 │   └── retrieve.py  → RAG plan generation with OpenAI
+
 ├── settings.py      → Environment configs
+
 └── main.py          → API endpoints
 
 Core Modules
+
 Module	Description
 api/inference.py	Loads trained CNN/ResNet/DenseNet models and performs prediction with temperature scaling
 api/explain.py	Generates Grad-CAM heatmaps for visual explainability
@@ -124,7 +134,7 @@ Utilities	NumPy, Pandas, Requests, dotenv
 
 
 # 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/BlazeVeritas-AI.git
+git clone https://github.com/dilrabonu/BlazeVeritas-AI.git
 cd BlazeVeritas-AI
 
 # 2️⃣ Create and activate environment
@@ -149,16 +159,23 @@ streamlit run app.py
 📁 Folder Structure
 blazeveritas/
 ├── api/                     # FastAPI backend (inference + RAG)
+
 ├── app/                     # Streamlit dashboard
+
 ├── models/                  # Trained model weights
+
 ├── reports/                 # Grad-CAM & metric outputs
+
 ├── scripts/                 # Utilities for ingestion & ONNX export
+
 ├── data/                    # Input / sample data
+
 ├── .env                     # API keys & configs
+
 └── app.py                   # Dashboard entry point
 
 
-Results Snapshot
+**Results Snapshot**
 
 ![alt text]({26492240-AC77-4EE5-8D96-0F2FA7F9A7F0}.png)
 
