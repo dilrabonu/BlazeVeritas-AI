@@ -1,4 +1,4 @@
-🔥 BlazeVeritas AI — AI-Powered Wildfire Intelligence System
+🔥#BlazeVeritas AI — AI-Powered Wildfire Intelligence System
 
 End-to-End Intelligent Platform for Wildfire Detection, Explainability & Response Planning
 
@@ -207,7 +207,9 @@ Author
 
 Dilrabo Khidirova
 AI Engineer | MSc in Machine Learning & Data Science
+
 Anna Surkova
+PM | Data Engineering & AI
 
 
 Acknowledgments
