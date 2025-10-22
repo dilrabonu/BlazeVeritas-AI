@@ -2,12 +2,12 @@
 
 End-to-End Intelligent Platform for Wildfire Detection, Explainability & Response Planning
 
-BlazeVeritas AI is an advanced AI system designed to detect, analyze, and explain wildfire events using deep learning, explainable AI (Grad-CAM), and retrieval-augmented reasoning (RAG).
+**BlazeVeritas AI** is an advanced AI system designed to detect, analyze, and explain wildfire events using deep learning, explainable AI (Grad-CAM), and retrieval-augmented reasoning (RAG).
 It integrates computer vision, geospatial analytics, and conversational intelligence into a single Streamlit + FastAPI dashboard.
 
 ![alt text]({30AED459-CAB8-4535-87E0-60A4F2D06AD2}.png)
 
-🌍 Overview
+## 🌍 Overview
 
 Wildfires pose catastrophic threats to ecosystems, infrastructure, and human lives.
 BlazeVeritas AI bridges science and technology to deliver:
@@ -24,7 +24,8 @@ BlazeVeritas AI bridges science and technology to deliver:
 
 ⚙️ System Architecture
 
-Streamlit UI (app.py)
+## Streamlit UI (app.py)
+
 │
 ├── Detect tab → CNN/ResNet/DenseNet models for fire classification
 
@@ -34,9 +35,10 @@ Streamlit UI (app.py)
 
 └── Map tab → Geo-aware visualization
 
-Backend (FastAPI / LangChain)
+## Backend (FastAPI / LangChain)
 
 api/
+
 ├── inference.py     → Model loading & prediction
 
 ├── explain.py       → Grad-CAM generation
@@ -51,17 +53,22 @@ api/
 
 └── main.py          → API endpoints
 
-Core Modules
+## Core Modules
 
-Module	Description
+**Module	Description**
 api/inference.py	Loads trained CNN/ResNet/DenseNet models and performs prediction with temperature scaling
+
 api/explain.py	Generates Grad-CAM heatmaps for visual explainability
+
 api/rag/retrieve.py	LangChain + OpenAI Copilot for contextual wildfire action planning
+
 app/app.py	Streamlit dashboard integrating all components
+
 scripts/ingest_docs.py	Indexes documents into Chroma vector store for RAG retrieval
+
 models/	Trained model weights (.pt / .ckpt) for all backbones
 
-Models & Explainability
+## Models & Explainability
 🔹 CNN Baseline
 
 A lightweight convolutional network for rapid inference on small devices.
