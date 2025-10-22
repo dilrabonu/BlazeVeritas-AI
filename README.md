@@ -28,7 +28,7 @@ https://data.mendeley.com/datasets/fgvscdjsmt/4
 
 ## Streamlit UI (app.py)
 
-│
+
 ├── Detect tab → CNN/ResNet/DenseNet models for fire classification
 
 ├── Calibration tab → Reliability plots & temperature scaling
@@ -202,13 +202,25 @@ Displays plan and heatmaps on the dashboard
 
 🔗 RAG expansion to climate and emergency datasets
 
-## Author
+## 👩‍💻 Authors & Responsibilities
 
-**Dilrabo Khidirova** 
-AI Engineer | MSc in Machine Learning & Data Science
+### **Dilrabo Khidirova**
+**Role:** AI Engineer | MSc in Machine Learning & Data Science  
+**Responsibilities:**
+- Designed and implemented the **AI model pipeline** (DenseNet121, ResNet18).  
+- Developed **Grad-CAM explainability** and **uncertainty estimation** modules.  
+- Built the **Streamlit dashboard** and integrated the **RAG Copilot (LangChain + OpenAI)**.  
+- Led **dataset preprocessing**, **model calibration**, and **FastAPI backend** development.  
+- Authored project documentation and technical report for **EPAM Internship**.
 
-**Anna Surkova**
-PM | Data Engineering & AI
+  ### **Anna Surkova**
+**Role:** Project Manager | Data Engineering & AI  
+**Responsibilities:**
+- Coordinated the **project roadmap** and milestone delivery.  
+- Managed **data engineering workflows** and validation pipelines.  
+- Oversaw **testing, documentation, and deployment strategy**.  
+- Supported integration between AI models and front-end dashboard.  
+- Provided strategic guidance on **AI ethics and reliability assessment**.
 
 
 ## Acknowledgments
