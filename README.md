@@ -1,4 +1,4 @@
-🔥#BlazeVeritas AI — AI-Powered Wildfire Intelligence System
+# 🔥BlazeVeritas AI — AI-Powered Wildfire Intelligence System
 
 End-to-End Intelligent Platform for Wildfire Detection, Explainability & Response Planning
 
