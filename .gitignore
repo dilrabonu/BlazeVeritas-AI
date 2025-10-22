@@ -1,0 +1,79 @@
+
+# Python / Build / Packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.build/
+build/
+dist/
+*.egg-info/
+.eggs/
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Test / Tooling caches
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Secrets & local config
+.env
+.env.*
+app/app_secrets.toml
+*/app_secrets.toml
+*.key
+*.pem
+
+# Model weights & large artifacts
+
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.safetensors
+-
+# Data & generated outputs
+
+data/
+raw/
+metrics/
+reports/**
+!reports/.gitkeep
+
+# Grad-CAM / XAI outputs (generated at runtime)
+reports/xai/**
+!reports/xai/.gitkeep
+
+# Vector DB / Chroma
+
+.chroma/
+
+
+# Logs
+logs/
+*.log
+uvicorn.log
+
+
+# Streamlit cache
+.streamlit/

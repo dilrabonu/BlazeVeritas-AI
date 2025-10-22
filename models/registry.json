@@ -1,0 +1,5 @@
+{
+    "serving": "resnet18_fire_nofire_calibrated.ckpt",
+    "backup": "densenet121_fire_nofire.pt",
+    "classes": ["nofire", "fire"]
+}
