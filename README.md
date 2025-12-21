@@ -223,19 +223,10 @@ Displays plan and heatmaps on the dashboard
 - Led **dataset preprocessing**, **model calibration**, and **FastAPI backend** development.  
 - Authored project documentation and technical report for **EPAM Internship**.
 
-  ### **Anna Surkova**
-**Role:** Project Manager | Data Engineering & AI  
-**Responsibilities:**
-- Coordinated the **project roadmap** and milestone delivery.  
-- Managed **data engineering workflows** and validation pipelines.  
-- Oversaw **testing, documentation, and deployment strategy**.  
-- Supported integration between AI models and front-end dashboard.  
-- Provided strategic guidance on **AI ethics and reliability assessment**.
-
 
 ## Acknowledgments
 
-EPAM Systems Mentorship (2025) — Internship project under Taras Ustyianovych & Yulyana Huliayeva
+EPAM Systems Mentorship (2025) — Internship project under Taras Ustyianovych
 
 IT Park University — Research Guidance on AI for Wildfire Detection
 
