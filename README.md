@@ -226,11 +226,11 @@ Displays plan and heatmaps on the dashboard
 
 ## Acknowledgments
 
-EPAM Systems Mentorship (2025) — Internship project under Taras Ustyianovych
+EPAM Systems Mentorship (2025) - Internship project under Taras Ustyianovych
 
-IT Park University — Research Guidance on AI for Wildfire Detection
+IT Park University - Research Guidance on AI for Wildfire Detection
 
-OpenAI & LangChain Teams — for powerful LLM and retrieval frameworks
+OpenAI & LangChain Teams - for powerful LLM and retrieval frameworks
 
 
 License
