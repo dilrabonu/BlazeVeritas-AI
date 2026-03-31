@@ -7,7 +7,7 @@ It integrates computer vision, geospatial analytics, and conversational intellig
 
 ![alt text]({30AED459-CAB8-4535-87E0-60A4F2D06AD2}.png)
 
-## 🌍 Overview
+##  Overview
  Name Meaning — BlazeVeritas AI
 
 The name “BlazeVeritas” comes from two powerful roots:
@@ -101,11 +101,11 @@ Copilot (RAG Assistant)
 
 The BlazeVeritas Copilot combines:
 
-🔎 Chroma Vector Store for semantic retrieval of wildfire documents
+ Chroma Vector Store for semantic retrieval of wildfire documents
 
 💬 OpenAI LLM (GPT-4o mini / gpt-3.5-turbo) for structured action plans
 
-🌦 Contextual Tools — Weather, NDVI, Topography
+ Contextual Tools — Weather, NDVI, Topography
 
 Example Query
 
@@ -204,15 +204,15 @@ Displays plan and heatmaps on the dashboard
 
 ## Deployment Plan
 
-✅ Local FastAPI + Streamlit prototype
+ Local FastAPI + Streamlit prototype
 
-☁️ Cloud deployment via Azure  (coming soon)
+ Cloud deployment via Azure  (coming soon)
 
-🛰 Integration with real-time satellite feeds
+ Integration with real-time satellite feeds
 
-🔗 RAG expansion to climate and emergency datasets
+ RAG expansion to climate and emergency datasets
 
-## 👩‍💻 Authors & Responsibilities
+##  Authors & Responsibilities
 
 ### **Dilrabo Khidirova**
 **Role:** AI Engineer | MSc in Machine Learning & Data Science  
